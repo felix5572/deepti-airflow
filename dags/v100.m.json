@@ -1,0 +1,10 @@
+{
+    "queue": "V100_8_32",
+    "job_name": "Li",
+    "select": 1,
+    "select_when_array":5,
+    "ncpus": 8,
+    "ngpus": 1,
+    "mem":  "30G",
+    "command": "/opt/lammps-sourcedir/lammps-1.2.0release/src/lmp_serial -i in.lammps"
+}
